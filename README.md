@@ -174,6 +174,12 @@ Ajouter également les relations pour chaque table. En cliquant sur une table pu
 
 RESPECTER BIEN LES NOMS ET PARAMÈTRES AINSI QUE LES RELATIONS DE CHAQUE TABLE!
 
+NOTES:
+
+Pour la colonne ```Null = oui```, il faut cocher la case ```Null```
+
+Pour la colonne ```Extra = AUTO_INCREMENT```il faut cocher la case ```A.I```
+
 
 
 
