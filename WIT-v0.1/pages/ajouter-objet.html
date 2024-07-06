@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Where Is It?</title>
+    <meta charset="UTF-8">
+    <html lang="fr">
+    <meta http-equiv="refresh" content="43200">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../img/apple-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" type="text/javascript"></script>
+
+    <!--// PWA -->
+    <link rel="manifest" href="../manifest.json">
+
+
+
+</head>
+
+<body id="bodyAjoutObjet">
+    <div id="header">
+        <i class="mdi mdi-arrow-left" id="headerBack"></i>
+        <span class="headerText">Ajouter</span>
+        <i class="mdi mdi-home" id="headerHome" onclick="goHome()"></i>
+    </div>
+    <!--// FORMULAIRE -->
+    <form id="ajouterObjetForm" class="ajouterForm">
+
+        <!--// NOM -->
+        <label class="labelForm required-label" for="nomObjet">Nom de l'objet:</label><br>
+        <input class="inputForm" type="text" id="nomObjet" name="nomObjet" required><br><br>
+
+        <!--// LIEU -->
+        <label class="labelForm required-label" for="lieuObjet">Lieu:</label><br>
+        <select class="inputForm" id="lieuObjet" name="lieuObjet" required>
+            <option value="" selected disabled>Sélectionner un lieu</option>
+            <!-- Les options seront ajoutées ici par JavaScript -->
+        </select><br><br>
+
+        <!-- Champ de saisie pour un nouveau lieu (initialement caché) -->
+        <div id="champNouveauLieu" style="display: none; width: 100%;" class="ajouterForm">
+            <label class="labelForm required-label" for="nouveauLieu">Nouveau Lieu:</label><br>
+            <input class="inputForm" type="text" id="nouveauLieu" name="nouveauLieu"><br><br>
+        </div>
+
+        <!--// EMPLACEMENT -->
+        <label class="labelForm" for="emplacementObjet">Emplacement:</label><br>
+        <select class="inputForm" id="emplacementObjet" name="emplacementObjet">
+            <option value="null" selected disabled>Sélectionner d'abord un lieu</option>
+            <!-- Les options seront ajoutées ici par JavaScript -->
+        </select><br><br>
+
+        <!-- Champ de saisie pour un nouveau lieu (initialement caché) -->
+        <div id="champNouvelEmplacement" style="display: none; width: 100%;" class="ajouterForm">
+            <label class="labelForm required-label" for="nouvelEmplacement">Nouvel emplacement:</label><br>
+            <input class="inputForm" type="text" id="nouvelEmplacement" name="nouvelEmplacement"><br><br>
+        </div>
+
+        <!--// CAISSE -->
+        <label class="labelForm" for="caisseObjet">Caisse:</label><br>
+        <select class="inputForm" id="caisseObjet" name="caisseObjet">
+            <option value="null" selected disabled>Sélectionner d'abord un lieu</option>
+            <!-- Les options seront ajoutées ici par JavaScript -->
+        </select><br><br>
+
+        <!-- Champ de saisie pour un nouveau lieu (initialement caché) -->
+        <div id="champNouvelleCaisse" style="display: none; width: 100%;" class="ajouterForm">
+            <label class="labelForm required-label" for="nouvelleCaisse">Nouvelle caisse:</label><br>
+            <input class="inputForm" type="text" id="nouvelleCaisse" name="nouvelleCaisse"><br><br>
+        </div>
+
+
+        <!--// THEME -->
+        <label class="labelForm required-label" for="themeObjet">Thème:</label><br>
+        <select class="inputForm" id="themeObjet" name="themeObjet" required>
+            <option value="" selected disabled>Sélectionner un thème</option>
+            <!-- Les options seront ajoutées ici par JavaScript -->
+        </select><br><br>
+
+        <!-- Champ de saisie pour un nouveau theme (initialement caché) -->
+        <div id="champNouveauTheme" style="display: none; width: 100%;" class="ajouterForm">
+            <label class="labelForm required-label" for="nouveauTheme">Nouveau thème:</label><br>
+            <input class="inputForm" type="text" id="nouveauTheme" name="nouveauTheme"><br><br>
+        </div>
+
+        <!--// QUANTITÉ -->
+        <label class="labelForm required-label" for="quantiteObjet">Quantité:</label><br>
+        <input class="inputForm" type="number" id="quantiteObjet" name="quantiteObjet" required><br><br>
+
+        <!--// DESCRIPTION -->
+        <label class="labelForm" for="descriptionObjet">Description:</label><br>
+        <input class="inputForm" type="text" id="descriptionObjet" name="descriptionObjet"><br><br>
+
+        <!--// PHOTO -->
+        <label class="labelForm" for="photoObjet">Photo de l'objet:</label><br>
+        <input class="" type="file" id="photoObjet" name="photoObjet" accept="image/*"><br><br>
+
+
+
+
+
+
+        <!--// BOUTONS -->
+        <div id="boutonAjoutConteneur">
+            <button type="submit" class="boutonAjouter">Ajouter</button>
+            <button class="boutonAnnuler">Annuler</button>
+        </div>
+    </form>
+
+    <script src="../js/ajouter-objet.js" type="text/javascript"></script>
+
+</body>
+
+</html>

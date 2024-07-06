@@ -1,0 +1,21 @@
+{
+  "name": "Where Is It?",
+  "short_name": "WIT?",
+  "description": "Application d'inventaire personnel",
+  "start_url": "../wit/pages/index.html",
+  "display": "standalone",
+  "background_color": "#a1e364",
+  "theme_color": "#a1e364",
+  "icons": [
+    {
+      "src": "../wit/img/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../wit/img/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

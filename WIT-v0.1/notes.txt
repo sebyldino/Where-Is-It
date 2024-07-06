@@ -1,0 +1,98 @@
+- Couleur gris: #555555, vert foncé #3f982c, vert clair #e5f205
+
+
+
+
+- Forcer la mise à jour du service worker à l'ouverture sur mobile
+- Modifier le bouton choisir un fichier pour l'ajour d'une photo dans un objet
+- Ajouter une page de connexion?
+- Ajouter un fichier de langue
+
+- Faire un fichier d'installation
+- Réinitialiser le filtre d'objet
+- Ajout automatique du style ajouter un lieux, combien d'emplacement à créer, de caisses...
+- Voir pour faire des sauvegarde de la base de donnée
+- Afficher une moule tournante pendant le chargement (notamment d'une photo)
+- Ajouter des filtres pour les emplacement et caisses
+
+
+
+
+
+
+
+MESSAGE D'ERREUR:
+- Lieux: OK
+
+- Emplacement quand même lieu: 
+- Emplacement quand lieu différent: OK  => par contre j'ai 2 fois le même nom qui ressort du coup. Voir pour différencier
+
+- Caisse quand même lieux sans emplacement: OK
+- Caisse quand meme lieux avec emplacement: OK pas possible d'ajouter
+
+- Objet avec même nom: Impossible d'ajouter => ajouter la possibilité de l'ajouter si lieu ou emplacemnt différent?
+
+- Thème: OK
+- Voir pour ajouter un émoji
+
+
+
+
+
+FAIT:
+- Ajouter une alerte quand le nom d'un objet existe déjà ailleur
+- Ajouter une option dans les select pour vider le select
+- Corriger la popup d'ajout qui ne se ferme pas lorsqu'on clique en dehors
+- Ajouter un bouton retour accueuil dans les pages lieux.html, emplacements.html...
+- Ajouter un bouton + sur les pages lieux.html, emplacement.html...
+- Dans les résultats de recherches, ajouter si c'est un lieu, un emplacement, un objet...
+- Si un objet existe déjà dans un même lieu, afficher son emplacement et sa caisse et demander confirmation de l'Ajouter
+- La fonction rechercher doit aussi rechercher dans les descriptions
+- modifier le bouton + quand je suis dans lieu pour rediriger directement vers la page d'ajout de lieu et non avoir la fenetre de choix
+- Supprimer créer un nouvel emplacement ou créer une nouvelle caisse lors de l'édit
+- Modifier le nom des éléments
+- Déplacer des caisses, emplacement et que les élément enfants suivents
+- emplacement non mit a jour quand j'edite une caisse et que je sélectionne sans emplacement
+- Quand j'édite, peut être ajouter le type qu'on édite (lieux, caisse, emplacement...)
+- Ajouter une alerte si le nom est vide dans un edit
+- Pouvoir modifier la photo d'un élément
+- Ajouter le logo en plus grand si l'écran est plus grand
+- Améliorer la navigation avec un retour à la page précédente non retour accueil
+- Lorsque que je clique sur un lieux, afficher tous les items dans ce lieu, idem pour emplacement, caisse, theme...
+    Ou ajouter des boutons "voir les objet de ce lieux", "voir les caisses de ce lieux"...
+- Ajouter la possibilité  de supprimer la photo et mettre la photo par défaut
+- Vérifier les cursor: pointer;
+- Ajouter des vignettes d'objets plutôt qu'une liste d'objet liste d'objet
+- Gérer la flèche back de la page détail
+- Vu qu’on a maintenant un bouton retour, il faut ajouter un bouton page d’accueil 
+- Ajouter dans les boutons 'voir ses caisses' le nombre d'item contenu
+- Quand je reviens a la page index.html il faut clear le local storage
+- Quand j'édite un objet, peut être mettre son emplacement actuelle, sa caisse actuelle à côté
+- Modifier le texte "Ajouter un emplacement" par simplement "Ajouter" car trop grand dans le header
+- Lorsqu'il y a beaucoup de résultat de recherche, il faudrait que la popup ne soit pas trop grande et qu'on puisse scroller
+- Ajouter un bouton filtre pour chercher par thématique (genre filtrer par theme, emplacement, caisse, lieu)
+- Ajouter des filtres de recherche
+- Quand je fais une recherche, dans les éléments sortant, ajouter l'icone de son type avant le nom. Ex: icone thème avant le nom du thème
+- Voir pour modifier le style de 'item.description' qui ressort lors d'une recherche dans script.js ligne 296
+- Vérifier et supprimer les console.log inutiles
+- Gérer la photo agrandie
+- Ajouter value='null' dans les selects ajouter-caisse, ajouter-emplacement... il va falloir aussi modifier les script php pour inclure le if = 'null'
+- Ajouter le bouton supprimer dans la page d'édition de l'item
+- Pluôt que d'ajouter le marker autant ajouter les icones respectives des types (lieu, emplacement, caisse...)
+- Afficher des vignettes partout plutot que des listes ==> compliqué car comment afficher les nom? ou alors mettre des icones?
+- Ajouter la possibilité de faire un retour avec le filtre déja appliqué
+- Modifier couleur bouton filtre
+- Modifier couleur bouton éditer
+- Maintenant que les lieux sont en vignette pourquoi ne pas rediriger directement vers les emplacements, caisses, objets lors du clique dessus?
+- Gérer la photo agrandie pour les objets
+- Modifier les pages de détails
+- Faire une PWA
+- Faire le tri dans le CSS
+- Déplacer le dossier uploads en le définissant dans identifiants voire renommer identifant en paramètres.
+- Vérifier le 'sur ajout' d'un lieu dans la liste
+
+
+
+
+
+

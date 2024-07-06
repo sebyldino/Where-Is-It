@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Where Is It?</title>
+    <meta charset="UTF-8">
+    <html lang="fr">
+    <meta http-equiv="refresh" content="43200">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="../img/apple-icon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" type="text/javascript"></script>
+
+    <!--// PWA -->
+    <link rel="manifest" href="../manifest.json">
+
+</head>
+
+<body id="bodyLieux">
+
+    <div id="header">
+        <i class="mdi mdi-arrow-left" id="headerBack"></i>
+        <span class="headerText">Lieux</span>
+        <i class="mdi mdi-home" id="headerHome" onclick="goHome()"></i>
+    </div>
+
+    <div class="listeConteneur">
+        <div id="lieuxList" class="itemList">
+            <!-- La liste des lieux sera insérée ici -->
+        </div>
+    </div>
+
+    <div id="ajouterBouton"><i class="mdi mdi-plus" onclick="ajouterElement('ajouter-lieu')"></i></div>
+
+    <script src="../js/liste-lieux.js" type="text/javascript"></script>
+    <!---->
+</body>
+
+</html>

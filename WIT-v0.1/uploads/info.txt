@@ -1,0 +1,2 @@
+Les photos seront stcokées dans ce dossier uploads.
+Laissé ce fichier dans ce dossier car lors de l'ajout de fichier depuis TinyFileManager, si un dossier est vide, il n'est pas ajouté.
