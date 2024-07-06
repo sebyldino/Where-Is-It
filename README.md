@@ -9,7 +9,12 @@ Localisation rapide : Recherchez facilement un objet pour savoir dans quel empla
 Flexibilité d'ajout : Possibilité d'ajouter de nouveaux lieux, emplacements, caisses et objets selon vos besoins.
 Interface conviviale : Une interface utilisateur intuitive pour une navigation simple et une expérience utilisateur optimisée.
 
-# Démo
+# Demo
+
+https://github.com/sebyldino/Where-Is-It/assets/17813720/ea996e85-115f-4119-81d6-546e5691a862
+
+
+
 
 
 
