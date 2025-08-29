@@ -370,7 +370,7 @@ tinyfilemanager.php
 Vous devez modifier le fichier 'config.php' qui se trouve dans le dossier 'php' comme ceci:
 ``` 
 <?php
-$servername = "localhost";
+$servername = "localhost"; // si vous avez installé l'ensemble sous docker: nom du service Docker, pas localhost
 $username = "user"; // Le nom d'utilisateur renseigné pour accéder à la base de donnée (celui créé sans privilège administrateur)
 $password = "password"; // Le mot de passe de cet utilisateur
 $dbname = "database"; // Le nom de votre base de donnée
