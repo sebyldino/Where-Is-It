@@ -148,15 +148,15 @@ function chargerThemes() {
                     themeSelect.appendChild(option);
                 }
             });
-            if (!optionExists(lieuSelect, 'nouveau_theme')) {
+            if (!optionExists(themeSelect, 'nouveau_theme')) {
                 var newThemeOption = document.createElement("option");
                 newThemeOption.value = "nouveau_theme";
                 newThemeOption.textContent = "Créer un nouveau thème";
                 themeSelect.appendChild(newThemeOption);
-            } else {
+            } 
+        }else {
                 console.error("Erreur lors du chargement des thèmes : " + this.statusText);
             }
-        }
     };
     xhr.onerror = function () {
         console.error("Erreur lors de la requête AJAX.");
